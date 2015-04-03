@@ -15,7 +15,7 @@ error: multihash checksums did not match
 
 ## Use Case
 
-If you tell people to pipe things directly into the shell... Don't do that. If you're going to _at least_ provide them a hash to ensure that man-in-the-middle attacks or compromised CDNs do not hurt your users.
+If you tell people to pipe things directly into the shell... Don't do that. If you're going to, _at least_ provide them a hash to ensure that man-in-the-middle attacks or compromised CDNs do not hurt your users.
 
 ```
 curl http://you.shouldnt.be/doing/this | hashpipe Qmepk1VCHpjyCmWeh61vyDKsWfKymyrBQLcmUpXUdUd3yM | sh
