@@ -37,10 +37,10 @@ curl http://you.shouldnt.be/doing/this | hashpipe Qmepk1VCHpjyCmWeh61vyDKsWfKymy
 - From source:
 
     ```
-    go get https://github.com/jbenet/go-hashpipe
+    go get https://github.com/jbenet/hashpipe
     ```
 
-- Pre-built binaries: https://gobuilder.me/github.com/jbenet/go-hashpipe
+- Pre-built binaries: https://gobuilder.me/github.com/jbenet/hashpipe
 
 ## Usage
 
