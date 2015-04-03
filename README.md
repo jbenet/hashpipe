@@ -45,7 +45,10 @@ curl http://you.shouldnt.be/doing/this | hashpipe Qmepk1VCHpjyCmWeh61vyDKsWfKymy
 ## Usage
 
 ```
-cat untrustedFile | hashpipe <expected-multihash-checksum> | trustedContext
+> hashpipe -h
+usage: hashpipe [MULTIHASH] <[FILE] >[FILE]
+
+    cat untrustedFile | hashpipe <expected-checksum> | trustedContext
 
 hashpipe - boldly journey into the unknown.
 
@@ -55,5 +58,12 @@ a bit safer, as it requires compromising more communication channels. On
 error, hashpipe returns a non-zero error code, failing pipelines.
 
 OPTIONS
-
+  -a="sha2-256": one of: sha1, sha2-256, sha2-512, sha3 (shorthand)
+  -algorithm="sha2-256": one of: sha1, sha2-256, sha2-512, sha3
+  -e="base58": one of: raw, hex, base58, base64 (shorthand)
+  -encoding="base58": one of: raw, hex, base58, base64
+  -l=-1: checksums length in bits (truncate). -1 is default (shorthand)
+  -length=-1: checksums length in bits (truncate). -1 is default
+  -q=false: quiet output (no newline on checksum, no error text) (shorthand)
+  -quiet=false: quiet output (no newline on checksum, no error text)
 ```
