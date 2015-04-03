@@ -10,7 +10,7 @@ QmUJPTFZnR2CPGAzmfdYPghgrFtYFB6pf1BqMvqfiPDam8
 > echo "hello" | hashpipe QmUJPTFZnR2CPGAzmfdYPghgrFtYFB6pf1BqMvqfiPDam8
 hello
 > echo "goodbye" | hashpipe QmUJPTFZnR2CPGAzmfdYPghgrFtYFB6pf1BqMvqfiPDam8
-error: checksums did not match
+error: multihash checksums did not match
 ```
 
 ## Use Case

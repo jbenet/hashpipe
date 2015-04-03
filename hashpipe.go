@@ -102,7 +102,7 @@ func run() error {
 func main() {
 	if err := run(); err != nil {
 		if !quiet {
-			fmt.Fprintf(os.Stderr, "error: %s (-q for no output)\n", err)
+			fmt.Fprintf(os.Stderr, "error: %s\n", err)
 		}
 		os.Exit(1)
 	}
