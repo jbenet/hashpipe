@@ -1,8 +1,8 @@
 `hashpipe` helps you venture into the unknown. It reads from stdin, checks the hash of the content, and outputs it IF AND ONLY IF it matches the provided hash checksum. This makes executing things a teensy bit safer, as it requires compromising more communication channels.
 
-`<>` with `<3` by [@juanbenet](https://twitter.com/juanbenet)
+<iframe src="https://ghbtns.com/github-btn.html?user=jbenet&repo=hashpipe&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+`<>` with <i class="fa fa-heart"></i> by [@juanbenet](https://twitter.com/jbenet)
 
 ## Example
 
