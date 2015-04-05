@@ -2,7 +2,7 @@
 
 <iframe src="https://ghbtns.com/github-btn.html?user=jbenet&repo=hashpipe&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-`<>` with <i class="fa fa-heart"></i> by [@juanbenet](https://twitter.com/jbenet)
+`<>` with <i class="fa fa-heart"></i> by [@juanbenet](https://twitter.com/juanbenet)
 
 ## Example
 
